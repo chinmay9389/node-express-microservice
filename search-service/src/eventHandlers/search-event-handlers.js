@@ -1,5 +1,5 @@
 const Search = require("../models/Search");
-const logger = require("../../../post-service/src/utils/logger");
+const logger = require("../utils/logger");
 const redisClient = require("../utils/redis");
 
 async function invalidateSearchCache() {
